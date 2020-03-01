@@ -4,8 +4,11 @@ A bash script automating ImageMagick creation of social media images
 This is an image automation process that I created to solve a specific problem, that is, the time and effort that it takes to arrange and maintain a constant and harmonious social media presence for individuals and small business.
 
 ## How To Use
+
 `git clone https://github.com/monkeywithacupcake/social-image-generator.git`
+
 `cd social-image-generator`
+
 `bash ig_gen.sh "${PWD}/example-dir"`
 
 ## What you get
