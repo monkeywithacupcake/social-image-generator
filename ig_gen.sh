@@ -30,9 +30,7 @@ for f in $FILES
 echo "i is now $i"
 
 # for each string, make a file
-STRINGS=("The longest sentence you can form with two words: I do." "Home is wherever your people are" "A synonym is a word you use when you can't spell the other one" "I don't need an inspriational quote. I need coffee." "Hakuna Matata" "Be yourself. Everyone else is already taken." "I have no special talents. I am just passionately curious." "Only you can tell your story" "Dongle" "Marriage: an endless sleepover with your favorite weirdo" "Oh, the places you'll go" "Balance your passions, not your time" "has \nSPRING \nSPRUNG \n yet?" "Distanc means so little when someone means so much" "You are still the one" "Good food; Great music; Bad dancing" "I’ve decided to be happy because it is good for my health")
-
-
+STRINGS=("some words" "more words" "you can do a longer bit of words and it will be smaller but still fit" "if \n you \n want")
 
 mkdir $theDir/output
 mkdir $theDir/twitter
