@@ -10,7 +10,7 @@
 
 
 echo "Starting InstaMagick Creation of Images"
-theDir=${4:-"${HOME}"}
+theDir=${1:-"${HOME}/social-image-generator/example-dir"}
 echo "$theDir"
 FILES=$theDir/backgrounds/*
 # create the temporary correct sized backgrounds
